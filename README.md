@@ -1,3 +1,7 @@
+# Project status
+
+This project is no longer maintained.
+
 # postfix-ldap-schema
 Simple LDAP schema for Postfix which provides the types required by http://www.postfix.org/LDAP_README.html
 
