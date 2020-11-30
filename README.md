@@ -25,7 +25,13 @@ mailacceptinggeneralid: m.mustermann
 mailacceptinggeneralid: bugs
 maildrop: mmu
 ````
-Please note that the OID used in the schema here is an OID of the type *Experimental OpenLDAP*, see also http://www.oid-info.com/get/1.3.6.1.4.1.4203.666 .
+Please note that the original OID used in the schema here was an OID of the type *Experimental OpenLDAP*, see also http://www.oid-info.com/get/1.3.6.1.4.1.4203.666 .
+
+The original  schema can be found on various sources on the internet. The previous version was copied from http://fossies.org/linux/group-e/doc/examples/LDAP/schema/postfix.schema and has been slightly modifiedr, and again for new OID.
+
+This now uses an OID from the Debian tree, see https://dsa.debian.org/iana/ and  http://www.oid-info.com/get/1.3.6.1.4.1.9586.100.8
+
+It uses .1 for attribute types and .2 for objectclasses
 
 
-The schema can be found on various sources on the internet. The current version was copied from http://fossies.org/linux/group-e/doc/examples/LDAP/schema/postfix.schema and has been slightly modified.
+
